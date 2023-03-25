@@ -1,10 +1,7 @@
 /*
- ▐ ▄ ▄▄▄ .▄ •▄ .▄▄ · ▪            ▄▄ • .▄▄▄  
-•█▌▐█▀▄.▀·█▌▄▌▪▐█ ▀. ██ ▪        ▐█ ▀ ▪▐▀•▀█ 
-▐█▐▐▌▐▀▀▪▄▐▀▀▄·▄▀▀▀█▄▐█· ▄█▀▄    ▄█ ▀█▄█▌·.█▌
-██▐█▌▐█▄▄▌▐█.█▌▐█▄▪▐█▐█▌▐█▌.▐▌   ▐█▄▪▐█▐█▪▄█·
-▀▀ █▪ ▀▀▀ ·▀  ▀ ▀▀▀▀ ▀▀▀ ▀█▄▀▪ ▀ ·▀▀▀▀ ·▀▀█. 
+CSS Document
 */
+
 @font-face { font-family: derk; src: url('derk.otf'); } 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
   html {
@@ -13,6 +10,10 @@
     overflow-x: hidden;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+}
+
+meta {
+  display: none;
 }
 
 #brand {
@@ -135,17 +136,10 @@ a:hover {
 }
 
 .typed-cursor{
-  font-size: 50px;
+  font-size: 30px;
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
 
-/*
- ▐ ▄ ▄▄▄ .▄ •▄ .▄▄ · ▪            ▄▄ • .▄▄▄  
-•█▌▐█▀▄.▀·█▌▄▌▪▐█ ▀. ██ ▪        ▐█ ▀ ▪▐▀•▀█ 
-▐█▐▐▌▐▀▀▪▄▐▀▀▄·▄▀▀▀█▄▐█· ▄█▀▄    ▄█ ▀█▄█▌·.█▌
-██▐█▌▐█▄▄▌▐█.█▌▐█▄▪▐█▐█▌▐█▌.▐▌   ▐█▄▪▐█▐█▪▄█·
-▀▀ █▪ ▀▀▀ ·▀  ▀ ▀▀▀▀ ▀▀▀ ▀█▄▀▪ ▀ ·▀▀▀▀ ·▀▀█. 
-*/
