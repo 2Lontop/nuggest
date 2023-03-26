@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -80,55 +80,26 @@ new Typed('#typed',{
 
 
 </script>
+<script>
+onLoad="initClock()">
 
-
+  <div id="timedate">
+    <a id="mon">January</a>
+    <a id="d">1</a>,
+    <a id="y">0</a><br />
+    <a id="h">12</a> :
+    <a id="m">00</a>:
+    <a id="s">00</a>:
+    <a id="mi">000</a>
+  </div>
 </script>
 
 
-</html
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="clock">
-      <div class="display">
-</div>
-</div>
-<script>
- <p style="text-align:right;">   
-  setInterval(function(){
-        const clock = document.querySelector(".display");
-        let time = new Date();
-        let sec = time.getSeconds();
-        let min = time.getMinutes();
-        let hr = time.getHours();
-        let day = 'AM';
-        if(hr > 12){
-          day = 'PM';
-          hr = hr - 12;
-        }
-        if(hr == 0){
-          hr = 12;
-        }
-        if(sec < 10){
-          sec = '0' + sec;
-        }
-        if(min < 10){
-          min = '0' + min;
-        }
-        if(hr < 10){
-          hr = '0' + hr;
-        }
-        clock.textContent = hr + ':' + min + ':' + sec + " " + day;
-      });
-      </h1>
-    </script>
-  </body>
-</html> </p>
+
+
+
+
 
 
 
